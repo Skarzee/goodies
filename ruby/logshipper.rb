@@ -1,5 +1,5 @@
-# Send a random string to a UDP port to access the affectiveness of the IMUDP Rsyslog Module.
-# Could also be used to test the use of something like Lumberjack instead
+# Send a random string to a UDP port to test different inputs.
+# This was used to quickly test the shipping of a log stream log to logstash
 
 require 'socket'
 require 'securerandom'
