@@ -1,3 +1,6 @@
+#!/usr/local/bin/ruby -w
+
+
 # Send a random string to a UDP port to test different inputs.
 # This was used to quickly test the shipping of a log stream log to logstash
 
@@ -5,8 +8,8 @@ require 'socket'
 require 'securerandom'
 
 # New UDP Socket, and Connection
-udp_client=UDPSocket.new
-udp_client.connect('10.10.6.81', 50000)
+tcp=TCPSocket.new
+tcp.open('10.10.6.51', 9000)
 while true
   sleep(2)
   input_generator = SecureRandom.hex()
