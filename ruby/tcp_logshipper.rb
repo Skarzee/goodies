@@ -1,6 +1,5 @@
 #!/usr/local/bin/ruby -w
 
-
 # Send a random string to a UDP port to test different inputs.
 # This was used to quickly test the shipping of a log stream log to logstash
 
