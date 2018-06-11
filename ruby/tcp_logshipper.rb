@@ -7,6 +7,7 @@ require 'socket'
 require 'securerandom'
 
 # New TCP Socket, and Connection
+# TODO: Parameters
 tcp=TCPSocket.new
 tcp.open('10.10.6.51', 9000)
 while true

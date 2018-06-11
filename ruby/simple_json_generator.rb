@@ -1,11 +1,12 @@
-#!/usr/local/bin/ruby -w
+#!/usr/local/bin/ruby
 
 require 'json'
 require 'socket'
 require 'date'
 require 'securerandom'
 
-# This loop kinda sucks, it could do with presvering the TCP connection and sending a fresh stream.
+# TODO: This loop kinda sucks, it could do with presvering the TCP connection and sending a fresh stream.
+# Specify things via arguments
 while true
   sleep 2
   tcp_client=TCPSocket.new('10.10.6.81',7777)

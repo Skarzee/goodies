@@ -1,0 +1,5 @@
+Gemfile.*
+*.tfstate
+*.git
+*.swp
+*.lock
