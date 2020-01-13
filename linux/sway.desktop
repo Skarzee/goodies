@@ -1,0 +1,10 @@
+# Used with SDDM
+[Desktop Entry]
+Name=Sway
+Comment=Based on i3, but uses Wayland
+Exec=sway
+TryExec=sway
+Type=Application
+X-LightDM-DesktopName=sway
+DesktopNames=sway
+Keywords=tiling;wm;windowmanager;wayland;window;manager;
